@@ -4,9 +4,9 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class ValidatorTest {
+public class ValidatorTestC {
 
-    private final Validator validator = new Validator();
+    private final ValidatorB validator = new ValidatorB();
 
     @Test
     public void shouldReturnTrueIfPositiveInteger() {
